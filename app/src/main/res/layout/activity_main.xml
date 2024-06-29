@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".view.activities.MainActivity">
+
+    <TextView
+        android:id="@+id/nfc_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_46sdp"
+        android:background="@color/dark_green"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Booking"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp">
+
+
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:src="@drawable/logout">
+
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20sp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivenquiry"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/enquiry">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/ll_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.6">
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llbottomtab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".4"
+        android:background="@drawable/bg_drawable_bottom_view"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/ll_cardparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_card"
+                android:layout_width="@dimen/_46sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@drawable/bg_circular_shape_grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:src="@drawable/book_icon">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/tv_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/loyalty"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp">
+
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/ll_view4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:background="@color/dark_grey"
+            android:visibility="gone">
+
+
+        </View>
+
+
+        <LinearLayout
+            android:id="@+id/ll_bookparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:id="@+id/ll_booking"
+                android:layout_width="@dimen/_46sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@drawable/bg_circular_shape_yellow"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:src="@drawable/book_icon">
+
+                </ImageView>
+
+
+                <TextView
+                    android:id="@+id/tv_book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/book"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/ll_view1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:background="@color/dark_grey"
+            android:visibility="gone">
+
+
+        </View>
+
+
+        <LinearLayout
+            android:id="@+id/ll_enterparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:id="@+id/ll_entry"
+                android:layout_width="@dimen/_46sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@drawable/bg_circular_shape_grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:src="@drawable/entry_icon">
+
+                </ImageView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/entry"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/ll_view2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:background="@color/dark_grey"
+            android:visibility="gone">
+
+
+        </View>
+
+
+        <LinearLayout
+            android:id="@+id/ll_exitparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:id="@+id/ll_exit"
+                android:layout_width="@dimen/_46sdp"
+                android:layout_height="@dimen/_46sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:background="@drawable/bg_circular_shape_grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:src="@drawable/exit_icon">
+
+                </ImageView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="@string/exit"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

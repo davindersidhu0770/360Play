@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_16sdp">
+
+        <LinearLayout
+            android:background="@drawable/corner_curve_normal_selector"
+            android:id="@+id/ll_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:minHeight="@dimen/_28sdp"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_slotstype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/thrityminutes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

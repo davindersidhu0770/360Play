@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:background="@color/white"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/newappicon"
+        android:layout_height="@dimen/_116sdp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold"
+        android:text="@string/cardscanner"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:background="@drawable/corner_curve_normal_selector"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:id="@+id/ed_barcodenumbers"
+            android:background="@android:color/transparent"
+            android:hint="@string/search"
+            android:layout_marginStart="12dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_weight=".5"
+            android:id="@+id/iv_scannerforpayment"
+            android:src="@drawable/ic_qr_code"
+            android:layout_height="@dimen/_24sdp">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+    <!--    <EditText-->
+<!--        android:layout_width="@dimen/_224sdp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:id="@+id/ed_barcodenumbers"-->
+<!--        android:inputType="number"-->
+<!--        android:layout_marginTop="@dimen/_24sdp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </EditText>-->
+
+
+
+    <Button
+        android:layout_width="@dimen/_184sdp"
+        android:layout_marginTop="@dimen/_36sdp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_payviacard"
+        android:textColor="@color/white"
+        android:text="Pay Via Card"
+        android:textAllCaps="false"
+        android:background="@color/dark_green"
+        android:layout_height="wrap_content">
+
+
+    </Button>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

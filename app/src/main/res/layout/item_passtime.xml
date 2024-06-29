@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@drawable/corner_curve_normal_selector"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8sdp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="0.6"
+            android:background="@drawable/corner_curve_normal_selector"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8sdp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/llremove"
+            android:layout_weight=".9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:src="@drawable/cross"
+                android:visibility="visible">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

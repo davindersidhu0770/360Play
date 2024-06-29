@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_root"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:paddingBottom="@dimen/_24sdp"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <include layout="@layout/print_layout"> </include>
+
+
+            <Button
+                android:layout_width="@dimen/_224sdp"
+                android:id="@+id/bnt_Print"
+                android:layout_marginTop="@dimen/_42sdp"
+                android:layout_gravity="center"
+                android:text="Print"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/corner_curve_green_button"
+                android:layout_height="@dimen/_42sdp">
+
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

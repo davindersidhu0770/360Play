@@ -1,0 +1,274 @@
+[
+  {
+    "typeOfActivities": [
+      {
+        "activity": "Art Experience",
+        "passes": [
+          {
+            "pass": "Live Caricature Small",
+            "typeOfGames": [
+              {
+                "game": "",
+                "times": [
+                  {
+                    "time": "ONE TIME",
+                    "basePrice": 100,
+                    "fivePerVATAmount": 5,
+                    "totalAmount": 105,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "Live Caricature LARGE",
+            "typeOfGames": [
+              {
+                "game": "",
+                "times": [
+                  {
+                    "time": "ONE TIME",
+                    "basePrice": 150,
+                    "fivePerVATAmount": 7.5,
+                    "totalAmount": 157.5,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "Glitter tattoos",
+            "typeOfGames": [
+              {
+                "game": "",
+                "times": [
+                  {
+                    "time": "ONE TIME",
+                    "basePrice": 20,
+                    "fivePerVATAmount": 1,
+                    "totalAmount": 21,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "Art  experience",
+            "typeOfGames": [
+              {
+                "game": "",
+                "times": [
+                  {
+                    "time": "30 MINS",
+                    "basePrice": 30,
+                    "fivePerVATAmount": 1.5,
+                    "totalAmount": 31.5,
+                    "person": 1
+                  },
+                  {
+                    "time": "1 HOURS",
+                    "basePrice": 50,
+                    "fivePerVATAmount": 2.5,
+                    "totalAmount": 52.5,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "Face Painting",
+            "typeOfGames": [
+              {
+                "game": "Half Face",
+                "times": [
+                  {
+                    "time": "Half Face",
+                    "basePrice": 30,
+                    "fivePerVATAmount": 1.5,
+                    "totalAmount": 31.5,
+                    "person": 1
+                  }
+                ]
+              },
+              {
+                "game": "Full Face",
+                "times": [
+                  {
+                    "time": "Full Face",
+                    "basePrice": 50,
+                    "fivePerVATAmount": 2.5,
+                    "totalAmount": 52.5,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "activity": "Trampoline  & Soft Play",
+        "passes": [
+          {
+            "pass": "GENERAL PASS",
+            "typeOfGames": [
+              {
+                "game": "GENERAL PASS - KID",
+                "times": [
+                  {
+                    "time": "30 Mins",
+                    "basePrice": 50,
+                    "fivePerVATAmount": 2.5,
+                    "totalAmount": 52.5,
+                    "person": 1
+                  },
+                  {
+                    "time": "60 Mins",
+                    "basePrice": 70,
+                    "fivePerVATAmount": 3.5,
+                    "totalAmount": 73.5,
+                    "person": 1
+                  },
+                  {
+                    "time": "2 Hours",
+                    "basePrice": 100,
+                    "fivePerVATAmount": 5,
+                    "totalAmount": 105,
+                    "person": 1
+                  }
+                ]
+              },
+              {
+                "game": "GENERAL PASS - ADULT",
+                "times": [
+                  {
+                    "time": "30 Mins",
+                    "basePrice": 25,
+                    "fivePerVATAmount": 1.25,
+                    "totalAmount": 26.25,
+                    "person": 1
+                  },
+                  {
+                    "time": "60 Mins",
+                    "basePrice": 30,
+                    "fivePerVATAmount": 1.5,
+                    "totalAmount": 31.5,
+                    "person": 0
+                  },
+                  {
+                    "time": "2 Hours",
+                    "basePrice": 35,
+                    "fivePerVATAmount": 1.75,
+                    "totalAmount": 36.75,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "MINI FAMILY PASS",
+            "typeOfGames": [
+              {
+                "game": "Trampoline , Wall Climbing, Foam Pit, Reaction Wall  PLUS  Ball Pool ,Twisters, Obstacle Games & Swindle Play",
+                "times": [
+                  {
+                    "time": "2 Hours",
+                    "basePrice": 199,
+                    "fivePerVATAmount": 9.95,
+                    "totalAmount": 208.95,
+                    "person": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "JUMBO FAMILY PASS",
+            "typeOfGames": [
+              {
+                "game": "Trampoline , Wall Climbing, Foam Pit, Reaction Wall   PLUS   Ball Pool ,Twisters, Obstacle Games & Swindle Play",
+                "times": [
+                  {
+                    "time": "2 Hours",
+                    "basePrice": 249,
+                    "fivePerVATAmount": 12.45,
+                    "totalAmount": 261.45,
+                    "person": 4
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "ADDITIONAL HOUR",
+            "typeOfGames": [
+              {
+                "game": "",
+                "times": [
+                  {
+                    "time": "60 Mins",
+                    "basePrice": 40,
+                    "fivePerVATAmount": 2,
+                    "totalAmount": 42,
+                    "person": 1
+                  }
+                ]
+              },
+              {
+                "game": "ADDITIONAL HOUR",
+                "times": [
+                  {
+                    "time": "",
+                    "basePrice": 40,
+                    "fivePerVATAmount": 2,
+                    "totalAmount": 42,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "FULL DAY PASS",
+            "typeOfGames": [
+              {
+                "game": "FULL DAY PASS",
+                "times": [
+                  {
+                    "time": "Full Day",
+                    "basePrice": 199,
+                    "fivePerVATAmount": 9.95,
+                    "totalAmount": 208.95,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pass": "Monthly Package",
+            "typeOfGames": [
+              {
+                "game": "Trampoline , Wall Climbing, Foam Pit, Basket Ball, Reaction Wall  PLUS  Ball Pool ,Twisters, Obstacle Games & Swindle Play",
+                "times": [
+                  {
+                    "time": "2 Hours",
+                    "basePrice": 999,
+                    "fivePerVATAmount": 49.95,
+                    "totalAmount": 1048.95,
+                    "person": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

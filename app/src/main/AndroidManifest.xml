@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.a360play.a360nautica">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- To support printerlibrary on Android R -->
+    <queries>
+        <package android:name="woyou.aidlservice.jiuiv5" />
+    </queries>
+
+    <application
+        android:name=".utils.BaseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.360Play"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".view.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.activities.LoginActivity">
+
+        </activity>
+
+        <activity
+            android:name=".view.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+
+        </activity>
+
+        <!--
+                <activity android:name=".view.activities.ShowQRCode"
+                    android:parentActivityName=".utils.FunctionActivity">
+
+                </activity>
+        -->
+
+        <activity
+            android:name=".view.activities.AccesoriesListingActivity"
+            android:parentActivityName=".utils.FunctionActivity">
+
+        </activity>
+
+        <!--
+                <activity
+                    android:name=".view.activities.OcrActivity1"
+                    android:exported="true"
+                    android:parentActivityName=".utils.FunctionActivity">
+
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+
+                    <meta-data
+                    android:name="com.huawei.hms.ml.DEPENDENCY"
+                        android:value="ocr" />
+                </activity>
+        -->
+
+        <activity
+            android:name=".view.activities.WriteNFCActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+
+
+    </application>
+
+</manifest>

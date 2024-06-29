@@ -1,0 +1,361 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Play Tx</string>
+    <string name="title">360-Play</string>
+    <string name="login">Login</string>
+    <string name="enteremail">Enter Email Address</string>
+    <string name="enterpassword">Password</string>
+    <string name="paymentiscollected">Payment is collected</string>
+    <string name="conitnue">Continue</string>
+    <string name="book">Book</string>
+    <string name="play_ar">ثري سكستي بلاي</string>
+    <string name="date_ar">Date(تاريخ)</string>
+    <string name="bookingtime_ar">Start Time(وقت البدء)</string>
+    <string name="endtime">End Time(وقت النهاية)</string>
+    <string name="exittime_ar">Exit Time(وقت الخروج)</string>
+    <string name="time_ar">Time(وقت)</string>
+
+    <string name="email_ar">Email(بريد الكتروني)</string>
+    <string name="phone_ar">Phone Number(رقم الهاتف)</string>
+    <string name="pass_ar">Service Type</string>
+    <string name="accessory">Accessory</string>
+    <string name="entrytime_ar">Entry Time(وقت الدخول)</string>
+    <string name="name_ar">Name(الاسم)</string>
+    <string name="price_ar">Pax Price(سعر الاطفال)</string>
+    <string name="ticket_ar">Pax</string>
+    <string name="child_comple">Child Complementary</string>
+    <string name="child_comple_c">Child Complementary Comments</string>
+    <string name="offer">Offer</string>
+    <string name="numberofpersons">No. of Person(عدد الأشخاص)</string>
+    <string name="payment_ar">Payment(دفع)</string>
+    <string name="entryfee_ar">Adult Price ( سعر الكبار)</string>
+    <string name="adult_ar">Adult(s) count(الكبار يحسبون)</string>
+    <string name="endate">End date(تاريخ الانتهاء)</string>
+    <string name="discounttype_ar">Discount Amount(مقدار الخصم)</string>
+    <string name="discountdetails">Discount Detail(تفاصيل الخصم)</string>
+    <string name="offer_ar">Offer</string>
+    <string name="card_details_arr">Card Details</string>
+    <string name="cardtype">Card Type</string>
+    <string name="customercopy_ar">Customer Copy(نسخة العميل)</string>
+    <string name="total_ar">Ticket Amount (المجموع)</string>
+    <string name="finalamount">Total Amount(المبلغ الإجمالي)</string>
+    <string name="daysleft">Days Left(ايام متبقية)</string>
+    <string name="typeofticket">Type Of Ticket</string>
+    <string name="vat">VAT(ضريبة القيمة المضافة)</string>
+    <string name="merchant_ar">Merchant Copy(نسخة التاجر)</string>
+    <string name="poweredbyqtickets_ar">Powered By Q-Tickets(مدعوم من كيوتيكتس اند ايفنتس ذ.م.م)</string>
+    <string name="note_ar">يرجى ملاحظة ما يلي: صلاحية التاريخ المذكور على التذكرة فقط. يجب على العملاء الاحتفاظ بهذه القسيمة خلال وقت النشاط.</string>
+    <string name="loyalty">Loyalty</string>
+    <string name="customer">Customer</string>
+    <string name="email">Email Id</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="pax">Pax : </string>
+    <string name="adult">Adults : </string>
+    <string name="male">Male</string>
+    <string name="orange_s">Small</string>
+    <string name="orange_m">Medium</string>
+    <string name="orange_l">Large</string>
+
+    <string name="cash">Cash</string>
+    <string name="credit">Credit Card</string>
+    <string name="split">Split</string>
+    <string name="artexpe">Art Experience</string>
+    <string name="female">Female</string>
+    <string name="trampoline">Trampoline &amp; Soft Play</string>
+    <string name="thrityminutes">30 minutes</string>
+    <string name="onehour">1 Hour</string>
+    <string name="singlepax">Single PAX</string>
+    <string name="familypax">Family PAX</string>
+    <string name="numberoftickets">Number of Ticket</string>
+    <string name="numberofpeople">0 Ticket</string>
+    <string name="confirm">Confirm</string>
+    <string name="username">Ahmed Hamid Hassan</string>
+    <string name="phonenumber">+97450324433</string>
+    <string name="useremail">ahmed@360-nautica.com</string>
+    <string name="emailtitle">Email</string>
+    <string name="amount">Amount</string>
+    <!--
+        <string name="qarprice">QAR 60/-</string>
+    -->
+    <string name="gateentry">Gate Entry</string>
+    <string name="search">Search</string>
+    <string name="viewstatus">View Status</string>
+    <string name="gateexist">Gate Exit</string>
+    <string name="scanaanotherbrand">Scan another wristbrand</string>
+    <string name="additionalamountforextratime">Additional Amount for extra time</string>
+    <string name="additionalamt">Additional Amount</string>
+    <string name="additionalmins">Additional Minutes</string>
+    <string name="exit">Exit</string>
+    <string name="entry">Entry</string>
+    <string name="name">Name</string>
+    <string name="additional_comments">Discount Comments</string>
+    <string name="notes">Notes</string>
+    <string name="ahmedkusasri">Ahmed Hassan</string>
+    <string name="contact">Contact</string>
+    <string name="phonecall">+9746743787848</string>
+    <string name="paxtype">Pax Type</string>
+    <string name="entrytime">Entry Time</string>
+    <string name="hours">1 Hour</string>
+    <string name="tickets">Tickets</string>
+    <string name="current">Current Time :</string>
+    <string name="time">5:30 pm</string>
+    <string name="startnow">START NOW</string>
+    <string name="gamename">Game Name</string>
+    <string name="tabtoscan">TAB TO SCAN</string>
+    <string name="servicetype">Service Type</string>
+    <string name="servicetype_ar">Service Type(يكتب خدمة)</string>
+    <string name="duration">Duration</string>
+    <string name="kids">Number of Kid(s)</string>
+    <string name="adults">Number of Adult(s)</string>
+    <string name="retry">Retry</string>
+    <string name="card">Card</string>
+    <string name="bookinganstartgame">Book And Enter In Game</string>
+    <string name="additonalmobilenumber">Additional Mobile Number</string>
+    <string name="addquid">QID</string>
+    <string name="gender">Gender</string>
+    <string name="welcome">Welcome Mark</string>
+    <string name="springsoup">Spring Souk, Jump Trampo</string>
+    <string name="mode">Payment Mode</string>
+    <string name="typeofgame">Type Of Games</string>
+    <string name="games">Games</string>
+    <string name="nationality">Nationality</string>
+    <string name="prepaid">Prepaid</string>
+    <string name="socks">Socks</string>
+    <string name="passes">Passes</string>
+    <string name="times">Time</string>
+    <string name="discounts">Discounts</string>
+    <string name="reset">Reset</string>
+    <string name="disocuntimage">Capture Card</string>
+    <string name="childcomp">Capture Card</string>
+    <string name="confirmandprint">CONFIRM &amp; PRINT</string>
+    <string name="paymentmode">Payment Mode</string>
+    <string name="payment">Payment</string>
+    <string name="playcard">Play Card</string>
+    <string name="phonetittle">Phone</string>
+    <string name="register">REGISTER</string>
+    <string name="enteramount">Enter Amount</string>
+    <string name="recharge">Recharge</string>
+    <string name="booking">Booking</string>
+    <string name="payviacard">PAY VIA CARD</string>
+    <string name="cardscanner">Card Scanner</string>
+    <string name="ridenotstarted">Note : Your ride is not started yet</string>
+    <string name="ridenotcomplete">Note : Your ride is not finished yet</string>
+    <string name="ridealreadycompleted">Note : Your ride is already completed</string>
+    <string name="noticemessage">Please Note : </string>
+    <string name="multipledots">..................................................................................................</string>
+    <string name="lines">..................................................................................................\nPowered By Q-Tickets\n..................................................................................................</string>
+    <string name="seatformentioneddate">Please Note : \nThe ticket is only valid on the mentioned \n
+                        date. The customer should retain \n
+                        this slip during activity time.</string>
+
+    <string name="seatofrmentioneddateandtime">Please Note :\nThe ticket is only valid on the mentioned\n
+                        date and time. The customer should \n retain this slip during activity time.</string>
+
+
+    <!--
+        <string name="currency">&#160;&#160;QAR</string>
+    -->
+
+    <string name="pointing_message">Point towards the card and take a picture</string>
+    <string name="ok">OK</string>
+    <string-array name="countries_array">
+        <item>Select Nationality</item>
+        <item>India</item>
+        <item>Qatar</item>
+        <item>Philippines</item>
+        <item>Egypt</item>
+        <item>Sri Lanka</item>
+        <item>Omani</item>
+        <item>Bahraini</item>
+        <item>Afghan</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>Argentine</item>
+        <item>Argentinian</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Bangladeshi</item>
+        <item>Belgian</item>
+        <item>Bolivian</item>
+        <item>Batswana</item>
+        <item>Brazilian</item>
+        <item>Bulgarian</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Colombian</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dominican</item>
+        <item>Ecuadorian</item>
+        <item>Salvadorian</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Fijian</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Ghanaian</item>
+        <item>Greek</item>
+        <item>Guatemalan</item>
+        <item>Haitian</item>
+        <item>Honduran</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kenyan</item>
+        <item>Kuwaiti</item>
+        <item>Lao</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Libyan</item>
+        <item>Lithuanian</item>
+        <item>Malaysian</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Mexican</item>
+        <item>Mongolian</item>
+        <item>Moroccan</item>
+        <item>Mozambican</item>
+        <item>Namibian</item>
+        <item>Nepalese</item>
+        <item>Dutch</item>
+        <item>New Zealand</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Norwegian</item>
+        <item>Pakistani</item>
+        <item>Panamanian</item>
+        <item>Sudan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Saudi</item>
+        <item>Scottish</item>
+        <item>Senegalese</item>
+        <item>Serbian</item>
+        <item>Singaporean</item>
+        <item>Slovak</item>
+        <item>South African</item>
+        <item>Korean</item>
+        <item>Spanish</item>
+        <item>Sudanese</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Taiwanese</item>
+        <item>Tajikistani</item>
+        <item>Thai</item>
+        <item>Tongan</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Emirati</item>
+        <item>British</item>
+        <item>American</item>
+        <item>Uruguayan</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Zambian</item>
+        <item>Zimbabwean</item>
+    </string-array>
+
+    <string name="toast_1">Transaction print,use the AIDL mode!</string>
+    <string name="toast_2">The service has been disconnected!</string>
+    <string name="toast_3">Bluetooth device is unavailable</string>
+    <string name="toast_4">Bluetooth device not detected. Please open Bluetooth!</string>
+    <string name="toast_5">Not Found InnterPrinter!</string>
+    <string name="toast_6">Bluetooth connect failed!</string>
+    <string name="toast_7"> Only a single Qr code is printed for the AIDL mode</string>
+    <string name="toast_8">Now QrCode size must be less than 7!</string>
+    <string name="toast_9">BarCode type or conent error!</string>
+    <string name="toast_10">Please set the printer as black label mode!</string>
+    <string name="toast_11">Settings->System->Advanced->InnerPrinter-> set black mark
+        function</string>
+    <string name="toast_12">Please set the printer to label mode!</string>
+    <string name="websiteurl">https://www.q-tickets.com/</string>
+    <string-array name="agegroup_array">
+        <item>Select Age Group</item>
+        <item>Age (0-5)</item>
+        <item>Age (6-10)</item>
+        <item>Age (11-15)</item>
+        <item>Age (16-20)</item>
+        <item>Age (21-25)</item>
+        <item>Age (26-30)</item>
+        <item>Age (31-35)</item>
+        <item>Age (36-40)</item>
+        <item>Age (Above 40)</item>
+
+    </string-array>
+    <string name="print_baidu_ticket">Print Baidu ticket</string>
+    <string name="print_meituan_ticket">Print Meituan ticket</string>
+    <string name="print_eleme_ticket">Print Eleme ticket</string>
+    <string name="print_koubei_ticket">Print Koubei ticket</string>
+    <string name="print_interval_black">Print Interval Black</string>
+    <string name="print_black">Print Black</string>
+    <string name="print">Pay &amp; Print</string>
+    <string name="function_all">Comprehensive Test</string>
+    <string name="function_qrcode">QR Code</string>
+    <string name="function_barcode">Bar Code</string>
+    <string name="function_text">Text</string>
+    <string name="function_tab">Form</string>
+    <string name="function_pic">Picture</string>
+    <string name="function_multi">Multi Threading</string>
+    <string name="function_threeline">Paper Feed</string>
+    <string name="function_buffer">Transaction Print</string>
+    <string name="function_blackline">Black Label</string>
+    <string name="function_cash">Cash Test</string>
+    <string name="function_lcd">Lcd Test</string>
+    <string name="function_status">Status</string>
+    <string name="function_label">Label Test</string>
+    <string name="multithread">multithread</string>
+    <string name="multithread_stop">stop</string>
+    <string name="pic_pos">picture arrangement mode</string>
+    <string name="pic_hor">transverse</string>
+    <string name="pic_ver">portrait</string>
+    <string name="about">about</string>
+    <string name="upload_info">Upload Printer Info</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_order">input epson command:</string>
+    <string name="about_content">PrinterHelper is suitable for the sunmi series. \nPrinterHelper integrate two connection type: AIDL and BLUETOOTH. It also provide a series of printing testing module, which help the developer to connect with the sunmi printing function faster. \n upload the information that need to be printed, which allows sunmi to better locate the issues. \n official site: http://www.sunmi.com. \n developer documentation: http://docs.sunmi.com</string>
+    <string name="accessories">Accessories(ملحق)</string>
+    <string name="access">Accessories</string>
+    <string name="monthlypass">Monthly Pass</string>
+    <string name="game_accessories">Accessories</string>
+    <string name="add_accessories">Add Accessories</string>
+    <string name="select_accessories">Select Accessories</string>
+    <string name="user_360_play_com">user@360-play.com</string>
+    <string name="tester">dipeshsingh@gmail.com</string>
+    <string name="user_360">User@360</string>
+    <string name="addmore">Add More</string>
+    <string name="discounttype">Discount Type</string>
+    <string name="carddetails">Cards Details</string>
+    <string name="count">Count</string>
+    <string name="qty">Qty.</string>
+    <string name="type_of_games">Type of Games</string>
+    <string name="lastorder">Last Order</string>
+    <string name="personss">Persons</string>
+    <string name="percentage">Promo Code</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="monthly_pass">Monthly Pass</string>
+    <string name="day_s_pass">Day(s) Pass</string>
+
+</resources>

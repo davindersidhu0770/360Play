@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_116sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:src="@drawable/newappicon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/playcard"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_36sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:background="@drawable/bg_corner_0dp_radius"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="@string/name"
+                    android:textColor="@color/black">
+
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/tv_customername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:text="@string/ahmedkusasri"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:background="@drawable/bg_corner_0dp_radius"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="@string/phonetittle"
+                    android:textColor="@color/black">
+
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/tv_phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:text="@string/phonecall"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:background="@drawable/bg_corner_0dp_radius"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="Balance amount"
+                    android:textColor="@color/black">
+
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:textColor="@color/dark_green"
+                    android:textStyle="bold">
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_52sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:background="@drawable/bg_corner_0dp_radius"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="Enter amount"
+                    android:textColor="@color/black">
+
+
+                </TextView>
+
+
+                <EditText
+                    android:id="@+id/ed_enteramount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@android:color/transparent"
+                    android:hint="Amount"
+                    android:inputType="phone"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+
+                </EditText>
+
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/sp_cardpaymenttypeforrecharge"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_24sdp"
+                android:background="@drawable/bg_corner_0dp_radius"
+                android:textSize="@dimen/_10sdp">
+
+            </Spinner>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_26sdp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_rechargecard"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_36sdp"
+                    android:layout_marginEnd="@dimen/_36sdp"
+                    android:background="@drawable/corner_curve_green_button"
+                    android:text="@string/recharge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_booking"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_36sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginEnd="@dimen/_36sdp"
+                android:background="@drawable/corner_curve_green_button"
+                android:text="@string/booking"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp">
+
+            </Button>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

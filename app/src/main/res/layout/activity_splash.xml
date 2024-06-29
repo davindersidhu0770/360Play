@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newsplash"
+        tools:layout_editor_absoluteX="-48dp"
+        tools:layout_editor_absoluteY="16dp">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <TextView
+        android:id="@+id/tv_versioncode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="15sp"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+        app:layout_constraintVertical_bias="0.903">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

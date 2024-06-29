@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:src="@drawable/ic_arrow"
+            android:layout_height="@dimen/_24sdp">
+
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:text="@string/gateexist"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_86sdp"
+        android:src="@drawable/newappicon"
+        android:layout_height="@dimen/_124sdp">
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/_24sdp"
+        android:text="@string/scanaanotherbrand"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_34sdp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_search"
+            android:layout_height="@dimen/_24sdp">
+
+        </ImageView>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            android:hint="@string/search"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <ImageView
+            android:layout_width="@dimen/_44sdp"
+            android:layout_weight=".9"
+            android:src="@drawable/ic_qr_code"
+            android:layout_height="@dimen/_24sdp">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/gateexist"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_34sdp"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:background="@drawable/corner_curve_green_button"
+        android:layout_height="@dimen/_46sdp">
+
+    </Button>
+
+
+    <TextView
+        android:layout_width="@dimen/_224sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:text="@string/additionalamountforextratime"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>

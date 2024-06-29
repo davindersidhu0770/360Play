@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config >
+        <base-config cleartextTrafficPermitted="true">
+
+        </base-config>
+        <domain includeSubdomains="true">https://ops.360-play.me</domain>
+        <domain includeSubdomains="true">http://122.160.72.57:99</domain>
+    </domain-config>
+</network-security-config>

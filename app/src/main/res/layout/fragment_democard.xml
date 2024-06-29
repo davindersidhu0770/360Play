@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivsettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/settings"
+        android:visibility="gone">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_116sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:src="@drawable/newappicon">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/playcard"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:background="@drawable/corner_curve_normal_selector"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:weightSum="5">
+
+        <EditText
+            android:id="@+id/ed_barcodenumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="4"
+            android:background="@android:color/transparent"
+            android:hint="@string/search"
+            android:inputType="number"
+            android:singleLine="true">
+
+        </EditText>
+
+
+        <ImageView
+            android:id="@+id/iv_scanner"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_weight=".5"
+            android:src="@drawable/ic_qr_code">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tag_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_card"
+        android:layout_width="@dimen/_184sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_36sdp"
+        android:background="@color/dark_green"
+        android:text="Register &amp; Book"
+        android:textAllCaps="false"
+        android:textColor="@color/white">
+
+
+    </Button>
+
+
+</LinearLayout>
